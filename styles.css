@@ -1,0 +1,50 @@
+/* General Sheet */
+body {
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+}
+/* Header */
+header {
+   background: linear-gradient(to right, #4CAF50, #009688);
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+   font-family: 'Roboto', sans-serif;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-weight: bold;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+/* Sections */
+section {
+   padding: 20px;
+   margin: 20px 0;
+}
+
+#about {
+   background: #f4f4f4;
+   text-align: center;
+}
+
+#projects {
+   background: #e8f5e9;
+}
+
+#contact {
+   background: #c9d1c0;
+   text-align: center;
+}
